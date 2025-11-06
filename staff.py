@@ -13,10 +13,21 @@ Attributes-
 Name
 Role
 
+Children-
+Handler
+Vet
+Guide
+
+
 Actions-
 Feed animals
 clean enclosure
 health check
 assign to specific animals/enclosures
 '''
+
+class staff:
+    def __init__(self, name, role, ):
+        self.name = name
+        self.role = role
 
